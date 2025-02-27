@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+
+    <div class="menu-container">
+        <h1 class="title">🍽️ Restaurant Menu</h1>
+        
+        <div class="category-buttons">
+            <button class="category active" data-category="starters">Starters</button>
+            <button class="category" data-category="mains">Main Course</button>
+            <button class="category" data-category="desserts">Desserts</button>
+            <button class="category" data-category="drinks">Drinks</button>
+        </div>
+
+        <div class="menu-items">
+            <div class="menu-item" data-category="starters">
+                <div class="card">
+                    <div class="front">
+                        <img src="Garlic Bread.jpeg" alt="Starter">
+                        <h3>Garlic Butter Shrimp</h3>
+                        <p>Fresh shrimp tossed in garlic butter sauce.</p>
+                        <span>$12.99</span>
+                    </div>
+                    <div class="back">
+                        <p>Includes a side of homemade garlic bread. Gluten-free available.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="mains">
+                <div class="card">
+                    <div class="front">
+                        <img src="Grilled Chicken.jpeg" alt="Main Course">
+                        <h3>Grilled Steak</h3>
+                        <p>Perfectly grilled steak with rosemary butter.</p>
+                        <span>$24.99</span>
+                    </div>
+                    <div class="back">
+                        <p>Served with garlic mashed potatoes and steamed vegetables.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="desserts">
+                <div class="card">
+                    <div class="front">
+                        <img src="Chocolate Cake.jpeg" alt="Dessert">
+                        <h3>Chocolate Lava Cake</h3>
+                        <p>Rich molten chocolate with vanilla ice cream.</p>
+                        <span>$8.99</span>
+                    </div>
+                    <div class="back">
+                        <p>Made with Belgian dark chocolate. 100% handcrafted.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="drinks">
+                <div class="card">
+                    <div class="front">
+                        <img src="Fresh Lemonade.jpeg" alt="Drink">
+                        <h3>Signature Cocktail</h3>
+                        <p>A blend of fresh citrus and premium spirits.</p>
+                        <span>$10.99</span>
+                    </div>
+                    <div class="back">
+                        <p>Our bartender’s special creation, customized to your taste.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
