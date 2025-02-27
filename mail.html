@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to CodSoft!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #F4F7FB;
+            font-family: 'Arial', sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #2D6CDF, #153A75);
+            color: #ffffff;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+        .content {
+            padding: 30px;
+            color: #333;
+            line-height: 1.7;
+            text-align: center;
+        }
+        .content h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #2D6CDF;
+        }
+        .content p {
+            font-size: 16px;
+            margin-bottom: 15px;
+            color: #555;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #2D6CDF;
+            color: #ffffff;
+            padding: 14px 28px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0px 4px 8px rgba(45, 108, 223, 0.3);
+        }
+        .cta-button:hover {
+            background: #1B4DA8;
+            box-shadow: 0px 6px 12px rgba(45, 108, 223, 0.4);
+        }
+        .divider {
+            width: 80%;
+            margin: 20px auto;
+            border-top: 1px solid #ddd;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #777;
+            background: #F4F7FB;
+        }
+        .footer a {
+            color: #2D6CDF;
+            text-decoration: none;
+        }
+        /* Responsive Design */
+        @media screen and (max-width: 600px) {
+            .email-container {
+                width: 90%;
+            }
+            .content h2 {
+                font-size: 20px;
+            }
+            .cta-button {
+                width: 80%;
+                font-size: 16px;
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td align="center">
+            <table class="email-container">
+                <!-- Header -->
+                <tr>
+                    <td class="header">
+                        Welcome to CodSoft! 🎉
+                    </td>
+                </tr>
+
+                <!-- Body Content -->
+                <tr>
+                    <td class="content">
+                        <h2>Hi [User's Name],</h2>
+                        <p>We’re thrilled to have you onboard! 🚀 Your journey with **CodSoft** begins now, and we can’t wait for you to explore all the amazing features we offer.</p>
+                        <p>To get started, please verify your email:</p>
+                        <a href="[Verification Link]" class="cta-button">Verify Your Email</a>
+                        <div class="divider"></div>
+                        <p>If you didn’t sign up for this account, please ignore this email.</p>
+                        <p>Need help? <a href="[Support Link]">Contact Support</a></p>
+                    </td>
+                </tr>
+
+                <!-- Footer -->
+                <tr>
+                    <td class="footer">
+                        &copy; 2025 **CodSoft** | <a href="[Unsubscribe Link]">Unsubscribe</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
